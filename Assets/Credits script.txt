@@ -1,0 +1,28 @@
+
+##### People responsible for this #####
+
+Development:
+  Thierry Decker
+
+Testing:
+  
+
+
+##### Assets used #####
+
+Fonts:
+  Enter Command & Piacevoli by fontenddev.com
+
+
+##### Software used #####
+
+Unity
+Paint.NET
+Aseprite
+
+
+##### Special thanks #####
+
+My family
+My teachers
+My cat Momo for sparing my life every night

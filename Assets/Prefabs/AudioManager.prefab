@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4764503710023336124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4764503710023336114}
+  - component: {fileID: 4764503710023336115}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4764503710023336114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4764503710023336124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 231.57434, y: 169.98384, z: -22.45618}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4764503710023336115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4764503710023336124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e4ae0f05f5af234898312fdca243ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 1a19aa2fe063cda45a1dba1f98ed2fef, type: 2}
+  musicMixer: {fileID: 8227017330752164978, guid: 1a19aa2fe063cda45a1dba1f98ed2fef, type: 2}
+  sfxMixer: {fileID: 5380378142167287961, guid: 1a19aa2fe063cda45a1dba1f98ed2fef, type: 2}
+  music:
+  - name: Track0
+    clip: {fileID: 8300000, guid: d4110e4b58a9f254a87446665f48adc9, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  soundEffects:
+  - name: Select
+    clip: {fileID: 8300000, guid: d738366fffc4b70419c0988e597091df, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDamage
+    clip: {fileID: 8300000, guid: c736a71fffac7984d81197400bcdfda0, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: f29181c2335c13f4889eb31e2c4e9a07, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  bgm:
+    name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
